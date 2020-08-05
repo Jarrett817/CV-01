@@ -5,6 +5,7 @@ let string = `
 /*你好，我叫Jarrett
 我们来画一个太极图
 首先我们需要个div，并把它变成一个圆*/
+
 #div1{
     border:1px solid red;
     width:200px;
@@ -13,11 +14,13 @@ let string = `
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     border:none;
 }
+
 /*然后分成黑白两部分*/
 #div1{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 50%,rgba(255,255,255,1) 50%);
 }
+
 /*加两个小球*/
 #div1::before{
     width: 100px;
@@ -41,6 +44,7 @@ let string = `
     background: radial-gradient(circle, rgba(0,0,0,1) 27%, rgba(255,255,255,1) 27%);
 }
 
+/*大功告成，太极图画完啦*/
 `
 let temp = "";
 let n = 0;
